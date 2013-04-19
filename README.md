@@ -1,7 +1,7 @@
 Likella - Device Flow Sample 
 =========
 
-[http://likella.com](Likella) è una piattaforma cloud che offre servizi gratuiti di fidelizzazione 
+[Likella](http://likella.com) è una piattaforma cloud che offre servizi gratuiti di fidelizzazione 
 (carte fedeltà, carta virtuale PassBook, tessere virtuali mobile, raccolte social su Facebook, Gamification)
 
 ----
@@ -14,7 +14,7 @@ Configurazione
 
 Si tratta di un semplice mini sito in PHP e Javascript che simula il flow  descritto nella guida:
 
-[https://graph.likella.com/guide/OAuth2Device.html](https://graph.likella.com/guide/OAuth2Device.html)
+[Likella Graph API guide](https://graph.likella.com/guide/OAuth2Device.html)
 
 Installare il codice in un qualsiasi web server che supporti PHP
 
@@ -28,7 +28,7 @@ Demo online
 ----
 
 Provate online l'applicativo in esecuzione:
-[http://about.likella.com/apidevice/](Demo online)
+[Demo online](http://about.likella.com/apidevice/)
 
 
 Changelog
