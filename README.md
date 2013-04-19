@@ -28,7 +28,10 @@ Demo online
 ----
 
 Provate online l'applicativo in esecuzione:
-[Demo online](http://about.likella.com/apidevice/)
+
+[Demo online 1](http://about.likella.com/apidevice/) 
+
+[Demo online 2](http://about.likella.com/ita/Developer/API-Likella/Device-Flow)
 
 
 Changelog
