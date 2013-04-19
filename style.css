@@ -1,0 +1,120 @@
+div {padding:5px;}
+div.error {padding:10px;color:#D70B52;}
+form input.btn{background-color: #D70B52;border: 8px solid #D70B52;color: white;font-weight: bold;margin: 5px;padding: 8px;width: 210px;cursor:pointer;border-radius: 8px 8px 8px 8px;}
+a.back{color: #D70B52;font-weight: bold;font-size:14px;cursor:pointer;}
+span.bold{font-weight: bold;}
+div.dialog p {margin:1px;}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display:block; }
+audio, canvas, video { display:inline-block; *display:inline; *zoom:1;}
+audio:not([controls]) { display:none; }
+[hidden] { display:none; }
+html { font-size:100%; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
+body { margin:0; }
+body, button, input, select, textarea { font-family:sans-serif; }
+a { color:#0000ee; }
+a:visited { color:#551a8b; }
+a:focus { outline:thin dotted; }
+a:hover, a:active { outline:0; }
+abbr[title] { border-bottom:1px dotted; }
+b, strong { font-weight:bold; }
+blockquote { margin:1em 40px; }
+dfn { font-style:italic; }
+mark { background:#ffff00; color:#000000;}
+pre, code, kbd, samp { font-family:monospace, serif; _font-family:'courier new', monospace; font-size:1em;}
+pre { white-space:pre; white-space:pre-wrap; word-wrap:break-word;}
+q { quotes:none; }
+q:before, q:after { content:''; content:none;}
+small { font-size:75%; }
+sub, sup { font-size:75%; line-height:0; position:relative; vertical-align:baseline;}
+sup { top:-0.5em; }
+sub { bottom:-0.25em; }
+ul, ol { margin:1em 0; padding:0 0 0 40px;}
+dd { margin:0 0 0 40px; }
+nav ul, nav ol { list-style:none; list-style-image:none;}
+img { border:0; -ms-interpolation-mode:bicubic;}
+svg:not(:root) { overflow:hidden; }
+figure { margin:0; }
+form { margin:0; }
+fieldset { border:1px solid #c0c0c0; margin:0 2px; padding:0.35em 0.625em 0.75em;}
+legend { border:0; *margin-left:-7px;}
+button, input, select, textarea { font-size:100%; margin:0; vertical-align:baseline; *vertical-align:middle;}
+button, input { line-height:normal; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor:pointer; -webkit-appearance:button; *overflow:visible;}
+input[type="checkbox"], input[type="radio"] { box-sizing:border-box; padding:0;}
+input[type="search"] { -webkit-appearance:textfield; -moz-box-sizing:content-box; -webkit-box-sizing:content-box; box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration { -webkit-appearance:none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border:0; padding:0;}
+textarea { overflow:auto; vertical-align:top;}
+table { border-collapse:collapse; border-spacing:0;}
+body { font-size:1.2142857142857em; font-family:"Helvetica", Arial;}
+.extraSmall { font-size:0.70588235294118em; line-height:2em;}
+.small, #nav span, #downloads strong { font-size:0.76470588235294em; line-height:1.8461538461538em;}
+.normal, h1, h2, h3, h4 { font-size:1em; text-align: center;}
+.big { font-size:1.3529411764706em; line-height:24/23 1em;}
+.large { font-size:1.5882352941176em; line-height:36/27 1em;}
+.huge { font-size:2.5882352941176em; line-height:48/44 1em;}
+.enormous { font-size:4.2352941176471em; line-height:72/72 1em;}
+.gigantic { font-size:6.8235294117647em; line-height:120/116 1em;}
+h2 { padding-top:2.8235294117647em; }
+h3 { margin-top:1.4117647058824em; }
+h1 { font-weight:500; }
+body { background:#ffffff; color:#252525;}
+h1, h2, h3, h4 { color:#171717; }
+body div.deviceflow { border:4px solid gray; height:250px; margin:0 auto; overflow:visible; padding:15px; position:relative; text-align:center; width:480px; }
+body div.deviceflow div.start { width:100%; height:100%;}
+body div.deviceflow div.start p, body div.deviceflow div.start a { font-family:courier, arial; font-size:18px;}
+body div.deviceflow div.doauth, body div.deviceflow div.connected { height:100%; width:100%;overflow: auto;}
+body div.deviceflow div.doauth p, body div.deviceflow div.doauth a, body div.deviceflow div.connected p, body div.deviceflow div.connected a { font-family:courier, arial; font-size:18px;}
+body div.deviceflow div.doauth a, body div.deviceflow div.doauth p.code, body div.deviceflow div.connected a, body div.deviceflow div.connected p.code { color:#D70B52; text-decoration:none; font-size:24px; font-weight:bold;}
+body div.deviceflow div.start a, body div.deviceflow div.connected a { 
+	background-color: #006DCC;
+    background-image: linear-gradient(to bottom, #0088CC, #0044CC);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	border: 0 none;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 5px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 200;
+    padding: 10px;
+    transition: none 0s ease 0s;
+    text-decoration: none;
+}
+body div.deviceflow div.start span.name, body div.deviceflow div.connected span.name { color: #D70B52; font-size:20px; font-weight:bold;}
+body div.stackcall { border:1px solid gray; height:150px; margin:10px auto 0; padding:15px; text-align:left; width:480px; overflow:auto;}
+body div.stackcall p, body div.stackcall a { margin:2px auto; font-size:14px;}
+body div.log { text-align:left; width:480px; margin:10px auto 0;}
+body div.log p, body div.log a { margin:2px auto; font-size:16px;}
+.pos {
+	width: 900px; margin: 0 auto;
+	background-image: url(pos.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 804px;
+}
+body div.deviceflow {
+	color: #FFF;
+    border: medium none transparent;
+    height: 370px;
+    left: -52px;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    top: 68px;
+    width: 478px;
+    transform: rotateX(7deg) rotateY(7deg) rotateZ(-5deg) skew(-14deg);
+    /*transform: skew(-7deg) rotateX(-21deg) rotateY(13deg) rotateZ(0deg);
+    	rotateX(7deg) rotateY(7deg) rotateZ(-5deg) skew(-14deg)*/
+    overflow: hidden;
+}
+.name {
+	color:#D70B52;
+}
+h1 img{
+	vertical-align: middle;
+}
