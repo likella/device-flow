@@ -24,6 +24,13 @@ Inserire i codici ricevuti nel file config.php
 
 ed accedere alla pagina index.php sul webserver
 
+Demo online
+----
+
+Provate online l'applicativo in esecuzione:
+[http://about.likella.com/apidevice/](Demo online)
+
+
 Changelog
 ---------
 
